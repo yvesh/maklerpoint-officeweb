@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="mobile.definition" template="/WEB-INF/jsp/tiles/mobile/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/jsp/tiles/mobile/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/tiles/mobile/footer.jsp" />
+	</definition>
+	
+	<definition name="/m/login" extends="mobile.definition">
+		<put-attribute name="title" value="Anmeldung" />
+		<put-attribute name="body" value="/WEB-INF/jsp/office/mobile/login.jsp" />
+	</definition>
+	
+	<definition name="/m/start" extends="mobile.definition">
+		<put-attribute name="title" value="Übersicht" />
+		<put-attribute name="body" value="/WEB-INF/jsp/office/mobile/start.jsp" />
+	</definition>
+	
+</tiles-definitions>

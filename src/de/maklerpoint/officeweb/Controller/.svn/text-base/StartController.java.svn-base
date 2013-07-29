@@ -1,0 +1,19 @@
+package de.maklerpoint.officeweb.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class StartController {
+
+	@RequestMapping("/office/start")
+    public ModelAndView showUebersichts() {
+ 
+		ModelMap modelMap = new ModelMap();							
+		modelMap.addAttribute("pageh1title", "Übersicht");
+		
+        return new ModelAndView("start", modelMap);
+    }	
+}
