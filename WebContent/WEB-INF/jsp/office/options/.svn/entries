@@ -1,44 +1,0 @@
-10
-
-dir
-280
-svn://localhost/media/Projects/svnserver/maklerpoint-office-web/WebContent/WEB-INF/jsp/office/options
-svn://localhost/media/Projects/svnserver
-
-
-
-2011-01-03T08:38:51.313482Z
-280
-yves
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-d94ca0d4-9517-4bf4-a73c-e4922f588be9
-
-
-
-
-
-
-0
-
-sparten
-dir
-
-textbausteine
-dir
-
-waehrungen
-dir
-
